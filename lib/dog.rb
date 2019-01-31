@@ -60,8 +60,8 @@ class Dog
       WHERE name = ?
       SQL
       
-      row = DB[:conn].execute(sql, name)[0]
-      find_by_name(row)
+      row =DB[:conn].execute(sql, name)[0]
+      new_from_db(row)
   end
   
   def self.create(name:, breed:)
