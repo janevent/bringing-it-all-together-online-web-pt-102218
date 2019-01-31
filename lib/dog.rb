@@ -82,7 +82,7 @@ class Dog
   
   def self.find_by_id
     sql = <<-SQL
-    SELECT *
+    SELECT * 
     SQL
   end
 end
