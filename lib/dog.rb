@@ -90,4 +90,6 @@ class Dog
     row = DB[:conn].execute(sql, id)[0]
     new_from_db(row)
   end
+  
+  
 end
