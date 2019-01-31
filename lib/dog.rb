@@ -76,6 +76,8 @@ class Dog
     SET name = ?, breed = ? 
     WHERE id = ?
     SQL
+    
+    
   end
   
   def self.find_by_id
