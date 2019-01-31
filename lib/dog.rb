@@ -88,6 +88,6 @@ class Dog
     SQL
     
     row = DB[:conn].execute(sql, id)[0]
-    new_from_db()
+    new_from_db(row)
   end
 end
