@@ -71,6 +71,8 @@ class Dog
   end
   
   def update 
+    sql = <<-SQL
+    
   end
   
   def self.find_by_id
