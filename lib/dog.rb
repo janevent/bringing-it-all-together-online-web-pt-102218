@@ -58,7 +58,7 @@ class Dog
       WHERE name = ?
       SQL
       
-      new_from_db(DB[:conn].execute(sql, name))
+      (DB[:conn].execute(sql, name)
   end
   
   def self.create(name:, breed:)
