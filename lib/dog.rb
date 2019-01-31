@@ -70,6 +70,9 @@ class Dog
     dog
   end
   
+  def update 
+  end
+  
   def self.find_by_id
   end
 end
