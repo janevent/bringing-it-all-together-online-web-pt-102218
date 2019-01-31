@@ -33,6 +33,7 @@ class Dog
     INSERT INTO dogs
     (id, name, breed)
     VALUES (
+    
     )
   end
 end
