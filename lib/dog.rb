@@ -84,7 +84,9 @@ class Dog
     sql = <<-SQL
     SELECT * 
     FROM dogs
-    WHERE 
+    WHERE id = ?
     SQL
+    
+    
   end
 end
