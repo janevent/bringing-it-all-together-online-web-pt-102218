@@ -72,7 +72,7 @@ class Dog
   
   def update 
     sql = <<-SQL
-    
+    SQL
   end
   
   def self.find_by_id
