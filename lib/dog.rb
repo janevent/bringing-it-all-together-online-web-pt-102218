@@ -9,7 +9,7 @@ class Dog
   end
   
   def self.create_table 
-    sql = >>-SQL
+    sql = <<-SQL
       CREATE TABLE dogs (
       id INTEGER PRIMARY KEY, 
       name TEXT, 
